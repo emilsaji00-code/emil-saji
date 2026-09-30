@@ -1,0 +1,33 @@
+ORGANISATIONAL HIERARCHY
+------------------------
+CEO
+|-- HR
+|-- Finance
+|-- IT
+    |-- Development
+    |   |-- Frontend
+    |   |-- Backend
+    |-- Testing
+
+Level-order traversal:
+CEO HR Finance IT Development Testing Frontend Backend
+
+Tree height = 3 edges
+Number of levels = 4
+
+SEARCH COMPARISON
+-----------------
+
+Department     Linear Comparisons   Binary Comparisons
+--------------------------------------------------------
+IT             7                    3
+  Linear Search: Department found
+  Binary Search: Department found
+
+Backend        1                    3
+  Linear Search: Department found
+  Binary Search: Department found
+
+Testing        8                    4
+  Linear Search: Department found
+  Binary Search: Department found
